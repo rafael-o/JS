@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53D030D9193FDF7C00F28001 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53D030D8193FDF7C00F28001 /* Cocoa.framework */; };
+		53D030DB193FDF7C00F28001 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53D030DA193FDF7C00F28001 /* SpriteKit.framework */; };
+		53D030E5193FDF7C00F28001 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53D030E3193FDF7C00F28001 /* InfoPlist.strings */; };
+		53D030E7193FDF7C00F28001 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D030E6193FDF7C00F28001 /* main.m */; };
+		53D030EB193FDF7C00F28001 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 53D030E9193FDF7C00F28001 /* Credits.rtf */; };
+		53D030ED193FDF7C00F28001 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53D030EC193FDF7C00F28001 /* MainMenu.xib */; };
+		53D030EF193FDF7C00F28001 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D030EE193FDF7C00F28001 /* MyScene.m */; };
+		53D030F2193FDF7D00F28001 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D030F1193FDF7D00F28001 /* AppDelegate.m */; };
+		53D030F5193FDF7D00F28001 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 53D030F4193FDF7D00F28001 /* Spaceship.png */; };
+		53D030F7193FDF7D00F28001 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53D030F6193FDF7D00F28001 /* Images.xcassets */; };
+		53D030FE193FDF7D00F28001 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53D030FD193FDF7D00F28001 /* XCTest.framework */; };
+		53D030FF193FDF7D00F28001 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53D030D8193FDF7C00F28001 /* Cocoa.framework */; };
+		53D03107193FDF7D00F28001 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53D03105193FDF7D00F28001 /* InfoPlist.strings */; };
+		53D03109193FDF7D00F28001 /* JogoSimplesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D03108193FDF7D00F28001 /* JogoSimplesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53D03100193FDF7D00F28001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53D030CD193FDF7C00F28001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53D030D4193FDF7C00F28001;
+			remoteInfo = JogoSimples;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		53D030D5193FDF7C00F28001 /* JogoSimples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JogoSimples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53D030D8193FDF7C00F28001 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		53D030DA193FDF7C00F28001 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		53D030DD193FDF7C00F28001 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		53D030DE193FDF7C00F28001 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		53D030DF193FDF7C00F28001 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		53D030E2193FDF7C00F28001 /* JogoSimples-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JogoSimples-Info.plist"; sourceTree = "<group>"; };
+		53D030E4193FDF7C00F28001 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		53D030E6193FDF7C00F28001 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53D030E8193FDF7C00F28001 /* JogoSimples-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JogoSimples-Prefix.pch"; sourceTree = "<group>"; };
+		53D030EA193FDF7C00F28001 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		53D030EC193FDF7C00F28001 /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		53D030EE193FDF7C00F28001 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		53D030F0193FDF7C00F28001 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		53D030F1193FDF7D00F28001 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		53D030F3193FDF7D00F28001 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		53D030F4193FDF7D00F28001 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		53D030F6193FDF7D00F28001 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		53D030FC193FDF7D00F28001 /* JogoSimplesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JogoSimplesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53D030FD193FDF7D00F28001 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		53D03104193FDF7D00F28001 /* JogoSimplesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JogoSimplesTests-Info.plist"; sourceTree = "<group>"; };
+		53D03106193FDF7D00F28001 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		53D03108193FDF7D00F28001 /* JogoSimplesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JogoSimplesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53D030D2193FDF7C00F28001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53D030DB193FDF7C00F28001 /* SpriteKit.framework in Frameworks */,
+				53D030D9193FDF7C00F28001 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53D030F9193FDF7D00F28001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53D030FF193FDF7D00F28001 /* Cocoa.framework in Frameworks */,
+				53D030FE193FDF7D00F28001 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53D030CC193FDF7C00F28001 = {
+			isa = PBXGroup;
+			children = (
+				53D030E0193FDF7C00F28001 /* JogoSimples */,
+				53D03102193FDF7D00F28001 /* JogoSimplesTests */,
+				53D030D7193FDF7C00F28001 /* Frameworks */,
+				53D030D6193FDF7C00F28001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53D030D6193FDF7C00F28001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53D030D5193FDF7C00F28001 /* JogoSimples.app */,
+				53D030FC193FDF7D00F28001 /* JogoSimplesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53D030D7193FDF7C00F28001 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53D030D8193FDF7C00F28001 /* Cocoa.framework */,
+				53D030DA193FDF7C00F28001 /* SpriteKit.framework */,
+				53D030FD193FDF7D00F28001 /* XCTest.framework */,
+				53D030DC193FDF7C00F28001 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53D030DC193FDF7C00F28001 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53D030DD193FDF7C00F28001 /* AppKit.framework */,
+				53D030DE193FDF7C00F28001 /* CoreData.framework */,
+				53D030DF193FDF7C00F28001 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		53D030E0193FDF7C00F28001 /* JogoSimples */ = {
+			isa = PBXGroup;
+			children = (
+				53D030EC193FDF7C00F28001 /* MainMenu.xib */,
+				53D030EE193FDF7C00F28001 /* MyScene.m */,
+				53D030F0193FDF7C00F28001 /* MyScene.h */,
+				53D030F1193FDF7D00F28001 /* AppDelegate.m */,
+				53D030F3193FDF7D00F28001 /* AppDelegate.h */,
+				53D030F4193FDF7D00F28001 /* Spaceship.png */,
+				53D030F6193FDF7D00F28001 /* Images.xcassets */,
+				53D030E1193FDF7C00F28001 /* Supporting Files */,
+			);
+			path = JogoSimples;
+			sourceTree = "<group>";
+		};
+		53D030E1193FDF7C00F28001 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53D030E2193FDF7C00F28001 /* JogoSimples-Info.plist */,
+				53D030E3193FDF7C00F28001 /* InfoPlist.strings */,
+				53D030E6193FDF7C00F28001 /* main.m */,
+				53D030E8193FDF7C00F28001 /* JogoSimples-Prefix.pch */,
+				53D030E9193FDF7C00F28001 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		53D03102193FDF7D00F28001 /* JogoSimplesTests */ = {
+			isa = PBXGroup;
+			children = (
+				53D03108193FDF7D00F28001 /* JogoSimplesTests.m */,
+				53D03103193FDF7D00F28001 /* Supporting Files */,
+			);
+			path = JogoSimplesTests;
+			sourceTree = "<group>";
+		};
+		53D03103193FDF7D00F28001 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53D03104193FDF7D00F28001 /* JogoSimplesTests-Info.plist */,
+				53D03105193FDF7D00F28001 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53D030D4193FDF7C00F28001 /* JogoSimples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53D0310C193FDF7D00F28001 /* Build configuration list for PBXNativeTarget "JogoSimples" */;
+			buildPhases = (
+				53D030D1193FDF7C00F28001 /* Sources */,
+				53D030D2193FDF7C00F28001 /* Frameworks */,
+				53D030D3193FDF7C00F28001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JogoSimples;
+			productName = JogoSimples;
+			productReference = 53D030D5193FDF7C00F28001 /* JogoSimples.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53D030FB193FDF7D00F28001 /* JogoSimplesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53D0310F193FDF7D00F28001 /* Build configuration list for PBXNativeTarget "JogoSimplesTests" */;
+			buildPhases = (
+				53D030F8193FDF7D00F28001 /* Sources */,
+				53D030F9193FDF7D00F28001 /* Frameworks */,
+				53D030FA193FDF7D00F28001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53D03101193FDF7D00F28001 /* PBXTargetDependency */,
+			);
+			name = JogoSimplesTests;
+			productName = JogoSimplesTests;
+			productReference = 53D030FC193FDF7D00F28001 /* JogoSimplesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53D030CD193FDF7C00F28001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Rafael Oliveira";
+				TargetAttributes = {
+					53D030FB193FDF7D00F28001 = {
+						TestTargetID = 53D030D4193FDF7C00F28001;
+					};
+				};
+			};
+			buildConfigurationList = 53D030D0193FDF7C00F28001 /* Build configuration list for PBXProject "JogoSimples" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 53D030CC193FDF7C00F28001;
+			productRefGroup = 53D030D6193FDF7C00F28001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53D030D4193FDF7C00F28001 /* JogoSimples */,
+				53D030FB193FDF7D00F28001 /* JogoSimplesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53D030D3193FDF7C00F28001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53D030F5193FDF7D00F28001 /* Spaceship.png in Resources */,
+				53D030F7193FDF7D00F28001 /* Images.xcassets in Resources */,
+				53D030E5193FDF7C00F28001 /* InfoPlist.strings in Resources */,
+				53D030EB193FDF7C00F28001 /* Credits.rtf in Resources */,
+				53D030ED193FDF7C00F28001 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53D030FA193FDF7D00F28001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53D03107193FDF7D00F28001 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53D030D1193FDF7C00F28001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53D030EF193FDF7C00F28001 /* MyScene.m in Sources */,
+				53D030E7193FDF7C00F28001 /* main.m in Sources */,
+				53D030F2193FDF7D00F28001 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53D030F8193FDF7D00F28001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53D03109193FDF7D00F28001 /* JogoSimplesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53D03101193FDF7D00F28001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53D030D4193FDF7C00F28001 /* JogoSimples */;
+			targetProxy = 53D03100193FDF7D00F28001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		53D030E3193FDF7C00F28001 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53D030E4193FDF7C00F28001 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		53D030E9193FDF7C00F28001 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53D030EA193FDF7C00F28001 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		53D03105193FDF7D00F28001 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53D03106193FDF7D00F28001 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53D0310A193FDF7D00F28001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		53D0310B193FDF7D00F28001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		53D0310D193FDF7D00F28001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JogoSimples/JogoSimples-Prefix.pch";
+				INFOPLIST_FILE = "JogoSimples/JogoSimples-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		53D0310E193FDF7D00F28001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JogoSimples/JogoSimples-Prefix.pch";
+				INFOPLIST_FILE = "JogoSimples/JogoSimples-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		53D03110193FDF7D00F28001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JogoSimples.app/Contents/MacOS/JogoSimples";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JogoSimples/JogoSimples-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JogoSimplesTests/JogoSimplesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		53D03111193FDF7D00F28001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JogoSimples.app/Contents/MacOS/JogoSimples";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JogoSimples/JogoSimples-Prefix.pch";
+				INFOPLIST_FILE = "JogoSimplesTests/JogoSimplesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53D030D0193FDF7C00F28001 /* Build configuration list for PBXProject "JogoSimples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53D0310A193FDF7D00F28001 /* Debug */,
+				53D0310B193FDF7D00F28001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53D0310C193FDF7D00F28001 /* Build configuration list for PBXNativeTarget "JogoSimples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53D0310D193FDF7D00F28001 /* Debug */,
+				53D0310E193FDF7D00F28001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		53D0310F193FDF7D00F28001 /* Build configuration list for PBXNativeTarget "JogoSimplesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53D03110193FDF7D00F28001 /* Debug */,
+				53D03111193FDF7D00F28001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53D030CD193FDF7C00F28001 /* Project object */;
+}
